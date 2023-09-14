@@ -16,7 +16,7 @@ public class FrequencyCharacterController {
     /**
      * getCharacterFrequency
      * строка в формате, например: aaaaabcccc
-     * return коллекцию отсартированную по убыванию значения
+     * return коллекцию отсортированную по убыванию значений
      */
     @GetMapping("/character-frequency")
     public Map<Character, Integer> getCharacterFrequency(@RequestParam String input) {
